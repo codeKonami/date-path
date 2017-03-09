@@ -1,0 +1,33 @@
+{
+  "name": "date-path",
+  "version": "1.0.0",
+  "description": "Give him a date, it will return a path.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint lib",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeKonami/date-path.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "codeKonami",
+    "email": "thomas.foricher@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-es2015": "^6.22.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-loader": "^1.6.3",
+    "eslint-plugin-import": "^2.2.0",
+    "jest": "^19.0.2",
+    "webpack": "^2.2.1"
+  }
+}
